@@ -17,8 +17,6 @@ public class NameActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_name);
-
         binding = ActivityNameBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
